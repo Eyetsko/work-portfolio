@@ -1,0 +1,88 @@
+.content {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-bottom: 200px;
+  font-family: "Playfair Display", serif;
+}
+
+.homepage h1 {
+  font-size: 120px;
+  text-align: right;
+  padding: 150px;
+  padding-bottom: 20px;
+}
+h5 {
+  text-align: right;
+  padding-right: 160px;
+  padding-bottom: 50px;
+}
+
+footer a {
+  color: black;
+  margin: 5px;
+  font-size: 20px;
+}
+h1 {
+  font-weight: lighter;
+  padding: 50px;
+}
+h3 {
+  border: 2px solid rgb(22, 223, 62);
+  margin: 120px 20px 80px 80px;
+  max-width: 100%;
+}
+img {
+  border: 2px solid rgb(22, 223, 62);
+  margin: 0 auto;
+  display: block;
+  padding: 30px;
+}
+.htmlSite {
+  width: 650px;
+  height: 470px;
+}
+.work a {
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+}
+.contact-info {
+  padding: 100px;
+  margin: 100px;
+  border: 2px solid rgb(22, 223, 62);
+}
+.contact-info a {
+  text-decoration: none;
+  color: white;
+}
+.contact-info h4 {
+  color: rgb(22, 223, 62);
+  padding: 20px;
+}
+.resumeLink a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 10px;
+}
+footer {
+  background-color: rgb(22, 223, 62);
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+.button {
+  padding: 30px;
+}
+.navbar-custom {
+  background-color: rgb(22, 223, 62);
+}
+h2 {
+  padding: 30px;
+}
