@@ -2,10 +2,11 @@
   background-color: black;
   text-align: center;
   color: white;
-  padding-bottom: 200px;
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
 }
-
+.homepage {
+  padding-bottom: 200px;
+}
 .homepage h1 {
   font-size: 120px;
   text-align: right;
