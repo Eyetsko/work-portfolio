@@ -6,13 +6,16 @@
   padding-bottom: 30px;
 }
 .homepage {
-  padding-bottom: 200px;
+  padding-bottom: 250px;
 }
 .homepage h1 {
   font-size: 120px;
   text-align: right;
   padding: 150px;
   padding-bottom: 20px;
+}
+.homepage h1:hover {
+  color: rgb(22, 223, 62);
 }
 h5 {
   text-align: right;
@@ -39,8 +42,6 @@ h3 {
 }
 img {
   border: 2px solid rgb(22, 223, 62);
-  margin: 0 auto;
-  display: block;
   padding: 30px;
 }
 .htmlSite {
@@ -76,13 +77,16 @@ footer {
 }
 p {
   font-weight: lighter;
-  font-size: 25px;
+  font-size: 20px;
 }
 .button a {
   color: white;
   text-decoration: none;
   border: 2px solid white;
   padding: 10px;
+}
+.button a:hover {
+  border: 2px solid rgb(22, 223, 62);
 }
 .navbar-custom {
   background-color: rgb(22, 223, 62);
@@ -99,4 +103,16 @@ h2 {
 }
 .button {
   margin: 50px;
+}
+.about {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.about img {
+  width: 30%;
+  margin: 1rem;
+}
+a:hover {
+  color: rgb(22, 223, 62);
 }
