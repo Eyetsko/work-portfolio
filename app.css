@@ -17,6 +17,10 @@
 .homepage h1:hover {
   color: rgb(22, 223, 62);
 }
+.homepage a {
+  text-decoration: none;
+  color: white;
+}
 h5 {
   text-align: right;
   padding-right: 160px;
@@ -34,6 +38,7 @@ footer {
 h1 {
   font-weight: lighter;
   padding: 50px;
+  text-align: center;
 }
 h3 {
   border: 2px solid rgb(22, 223, 62);
@@ -44,10 +49,7 @@ img {
   border: 2px solid rgb(22, 223, 62);
   padding: 30px;
 }
-.htmlSite {
-  width: 650px;
-  height: 470px;
-}
+
 .work a {
   color: white;
   border: 1px solid white;
@@ -55,6 +57,14 @@ img {
   padding: 10px;
   font-weight: bold;
 }
+.work img {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
 .contact-info {
   padding: 100px;
   margin: 100px;
@@ -99,20 +109,35 @@ h2 {
 }
 .info {
   text-align: center;
-  margin-top: 200px;
+  padding: 80px;
+  width: 50%;
+}
+@media (max-width: 1000px) {
+  .work p {
+    display: none;
+  }
+  .work h4 {
+    font-size: 20px;
+    margin: 0;
+  }
 }
 .button {
-  margin: 50px;
+  margin-top: 30px;
 }
 .about {
   margin-top: 30px;
-  display: flex;
-  flex-direction: column;
 }
 .about img {
+  display: flex;
+  justify-content: space-evenly;
   width: 30%;
-  margin: 1rem;
+  margin: calc(10% / 6);
 }
 a:hover {
   color: rgb(22, 223, 62);
+}
+
+.col-6 {
+  width: 50%;
+  height: 50%;
 }
