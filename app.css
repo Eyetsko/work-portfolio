@@ -49,6 +49,9 @@ img {
   border: 2px solid rgb(22, 223, 62);
   padding: 30px;
 }
+.work{
+  margin-top: 40px;
+}
 
 .work a {
   color: white;
@@ -104,8 +107,10 @@ p {
 h2 {
   padding: 30px;
 }
-.resume {
-  padding-bottom: 50px;
+
+.button {
+  margin-top: 0;
+  margin-bottom: 60px;
 }
 .info {
   text-align: center;
@@ -140,4 +145,23 @@ a:hover {
 .col-6 {
   width: 50%;
   height: 50%;
+}
+.skills ul{
+  list-style-type: none;
+  margin-bottom: 45px;
+}
+.skills h4{
+  border: 1px solid rgb(22, 223, 62);
+  font-weight: lighter;
+}
+.skills img{
+  height:200px;
+  margin-bottom:22px;
+}
+.skills span{
+  font-size: 18px;
+  color: rgb(22, 223, 62);
+}
+.info h4{
+  color: rgb(22, 223, 62);
 }
