@@ -141,14 +141,13 @@ h2 {
 a:hover {
   color: rgb(22, 223, 62);
 }
-
 .col-6 {
   width: 50%;
   height: 50%;
 }
 .skills ul{
   list-style-type: none;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 .skills h4{
   border: 1px solid rgb(22, 223, 62);
@@ -165,3 +164,11 @@ a:hover {
 .info h4{
   color: rgb(22, 223, 62);
 }
+.about-info a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.about-info a:hover{
+  color: rgb(22, 223, 62);
+};
