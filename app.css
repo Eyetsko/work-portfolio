@@ -148,7 +148,7 @@ a:hover {
   font-weight: lighter;
 }
 .resume img {
-  height: 200px;
+  height: 80%;
   margin-bottom: 10%;
 }
 .skills .img-fluid {
@@ -174,7 +174,7 @@ a:hover {
 
 /* Media Queries */
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   /* HomePage */
   .homepage h1 {
     font-size: 60px;
