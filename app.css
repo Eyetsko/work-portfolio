@@ -7,9 +7,6 @@
   background-size: cover;
   padding-bottom: 30px;
 }
-.homepage {
-  padding-bottom: 20%;
-}
 .homepage h1 {
   font-size: 120px;
   text-align: right;
@@ -177,20 +174,29 @@ a:hover {
 
 @media (max-width: 1000px) {
   /* HomePage */
+
   .homepage h1 {
     font-size: 60px;
     text-align: right;
   }
   .homepage {
-  padding-bottom: 30%;
-}
+    height: 1000px;
+    padding-bottom: 30%;
+  }
   h5 {
     text-align: right;
   }
   .homepage h1:hover {
     color: rgb(22, 223, 62);
   }
+  /* About */
+  .about {
+    height: 1000px;
+  }
   /* Contact */
+  .contact-info {
+    height: 1000px;
+  }
   .contact-info {
     margin: 10px;
     border: 2px solid rgb(22, 223, 62);
