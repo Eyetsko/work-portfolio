@@ -180,7 +180,7 @@ a:hover {
     text-align: right;
   }
   .homepage {
-    height: 2000px;
+    height: 1800px;
     padding-bottom: 30%;
   }
   h5 {
@@ -191,11 +191,11 @@ a:hover {
   }
   /* About */
   .about {
-    height: 2000px;
+    height: 1800px;
   }
   /* Contact */
   .contact-info {
-    height: 1000px;
+    height: 1800px;
   }
   .contact-info {
     margin: 10px;
