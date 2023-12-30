@@ -7,7 +7,7 @@
   padding-bottom: 30px;
 }
 .homepage {
-  padding-bottom: 200px;
+  padding-bottom: 20%;
 }
 .homepage h1 {
   font-size: 120px;
@@ -179,9 +179,10 @@ a:hover {
   .homepage h1 {
     font-size: 60px;
     text-align: right;
-    /* padding: 150px; */
-    /* padding-bottom: 20px; */
   }
+  .homepage {
+  padding-bottom: 30%;
+}
   h5 {
     text-align: right;
   }
