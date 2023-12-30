@@ -3,10 +3,11 @@
   text-align: center;
   color: white;
   font-family: "Poppins", sans-serif;
+  height: 100%;
   padding-bottom: 30px;
 }
 .homepage {
-  padding-bottom: 250px;
+  padding-bottom: 200px;
 }
 .homepage h1 {
   font-size: 120px;
@@ -49,7 +50,7 @@ img {
   border: 2px solid rgb(22, 223, 62);
   padding: 30px;
 }
-.work{
+.work {
   margin-top: 40px;
 }
 
@@ -117,15 +118,7 @@ h2 {
   padding: 80px;
   width: 50%;
 }
-@media (max-width: 1000px) {
-  .work p {
-    display: none;
-  }
-  .work h4 {
-    font-size: 20px;
-    margin: 0;
-  }
-}
+
 .button {
   margin-top: 30px;
 }
@@ -145,30 +138,90 @@ a:hover {
   width: 50%;
   height: 50%;
 }
-.skills ul{
+.skills ul {
   list-style-type: none;
-  margin-bottom: 40px;
+  margin-bottom: 10%;
 }
-.skills h4{
+
+.skills h4 {
   border: 1px solid rgb(22, 223, 62);
   font-weight: lighter;
 }
-.skills img{
-  height:200px;
-  margin-bottom:22px;
+.resume img {
+  height: 200px;
+  margin-bottom: 10%;
 }
-.skills span{
+.skills .img-fluid {
+  height: 200px;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+.skills span {
   font-size: 18px;
   color: rgb(22, 223, 62);
 }
-.info h4{
+.info h4 {
   color: rgb(22, 223, 62);
 }
-.about-info a{
+.about-info a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
-.about-info a:hover{
+.about-info a:hover {
   color: rgb(22, 223, 62);
-};
+}
+
+/* Media Queries */
+
+@media (max-width: 900px) {
+  /* HomePage */
+  .homepage h1 {
+    font-size: 60px;
+    text-align: right;
+    /* padding: 150px; */
+    /* padding-bottom: 20px; */
+  }
+  h5 {
+    text-align: right;
+  }
+  .homepage h1:hover {
+    color: rgb(22, 223, 62);
+  }
+  /* Contact */
+  .contact-info {
+    margin: 10px;
+    border: 2px solid rgb(22, 223, 62);
+  }
+  .contact-info h1 {
+    font-weight: lighter;
+    text-align: center;
+  }
+  .contact-info h4 {
+    color: rgb(22, 223, 62);
+  }
+  /* Projects */
+  .work {
+    display: block;
+  }
+  .work img {
+    display: block;
+    padding: 5%;
+  }
+  .info {
+    display: block;
+    padding: 10%;
+    width: 50%;
+  }
+  .work p {
+    display: none;
+  }
+  .work h4 {
+    font-size: 15px;
+  }
+  /* Documents */
+  .resume img {
+    height: 80%;
+    width: 80%;
+  }
+}
