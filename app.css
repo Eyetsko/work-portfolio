@@ -3,14 +3,11 @@
   text-align: center;
   color: white;
   font-family: "Poppins", sans-serif;
-  height: 100%;
-  background-size: cover;
-  padding-bottom: 30px;
 }
 .homepage h1 {
   font-size: 120px;
   text-align: right;
-  padding: 150px;
+  padding-left: 150px;
   padding-bottom: 20px;
 }
 .homepage h1:hover {
@@ -19,6 +16,9 @@
 .homepage a {
   text-decoration: none;
   color: white;
+}
+.homepage {
+  height: 100vh;
 }
 h5 {
   text-align: right;
@@ -33,6 +33,10 @@ footer a {
 }
 footer {
   padding-top: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 h1 {
   font-weight: lighter;
@@ -49,7 +53,8 @@ img {
   padding: 30px;
 }
 .work {
-  margin-top: 40px;
+  margin-top: 4%;
+  padding-bottom: 5%;
 }
 
 .work a {
@@ -68,9 +73,9 @@ img {
 }
 
 .contact-info {
-  padding: 100px;
-  margin: 100px;
+  /* margin: 100px; */
   border: 2px solid rgb(22, 223, 62);
+  padding-bottom: 10%;
 }
 .contact-info a {
   text-decoration: none;
@@ -106,7 +111,9 @@ p {
 h2 {
   padding: 30px;
 }
-
+.documents {
+  padding-bottom: 5%;
+}
 .button {
   margin-top: 0;
   margin-bottom: 60px;
@@ -122,6 +129,7 @@ h2 {
 }
 .about {
   margin-top: 30px;
+  padding-bottom: 8%;
 }
 .about img {
   display: flex;
@@ -138,7 +146,7 @@ a:hover {
 }
 .skills ul {
   list-style-type: none;
-  margin-bottom: 10%;
+  margin-top: 2%;
 }
 
 .skills h4 {
@@ -175,16 +183,16 @@ a:hover {
 @media (max-width: 1000px) {
   /* HomePage */
 
-  .homepage h1 {
-    font-size: 60px;
-    text-align: right;
-  }
   .homepage {
-    height: 1800px;
-    padding-bottom: 30%;
-  }
-  h5 {
+  height: 90vh;
+}
+  .homepage h1 {
+    font-size: 100px;
     text-align: right;
+    padding-left: 0;
+  }
+  .homepage h5 {
+    display: none;
   }
   .homepage h1:hover {
     color: rgb(22, 223, 62);
@@ -195,11 +203,9 @@ a:hover {
   }
   /* Contact */
   .contact-info {
-    height: 1800px;
-  }
-  .contact-info {
-    margin: 10px;
-    border: 2px solid rgb(22, 223, 62);
+    /* margin: 10px; */
+    border: none;
+    padding-bottom: 60%;
   }
   .contact-info h1 {
     font-weight: lighter;
@@ -231,5 +237,9 @@ a:hover {
   .resume img {
     height: 80%;
     width: 80%;
+  }
+  /* Documents  */
+  .documents {
+    padding-bottom: 20%;
   }
 }
