@@ -244,11 +244,11 @@ a:hover {
   /* Documents */
   .resume img {
     display: block;
-    width: 100%;
+    width: 100vw;
   }
-  .skills .img-fluid{
+  /* .skills .img-fluid{
     display: block;
-  }
+  } */
   .documents {
     padding-bottom: 20%;
   }
