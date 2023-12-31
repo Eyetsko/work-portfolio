@@ -22,7 +22,7 @@
 }
 h5 {
   text-align: right;
-  padding-right: 160px;
+  padding-right: 70px;
   padding-bottom: 50px;
 }
 
@@ -184,10 +184,10 @@ a:hover {
   /* HomePage */
 
   .homepage {
-  height: 90vh;
+  height: 100vh;
 }
   .homepage h1 {
-    font-size: 100px;
+    font-size: 200px;
     text-align: right;
     padding-left: 0;
   }
@@ -205,14 +205,19 @@ a:hover {
   .contact-info {
     /* margin: 10px; */
     border: none;
-    padding-bottom: 60%;
+    padding-bottom: 100%;
   }
   .contact-info h1 {
+    font-size: 60px;
     font-weight: lighter;
     text-align: center;
   }
   .contact-info h4 {
+    font-size: 40px;
     color: rgb(22, 223, 62);
+  }
+  .contact-info p {
+    font-size: 35px;
   }
   /* Projects */
   .work {
@@ -235,11 +240,17 @@ a:hover {
   }
   /* Documents */
   .resume img {
-    height: 80%;
-    width: 80%;
+    width: 100%;
   }
   /* Documents  */
   .documents {
     padding-bottom: 20%;
+  }
+  /* Navbar */
+  .navbar-custom{
+    /* height: 100px; */
+  }
+  .navbar-toggler {
+    font-size: 30px;
   }
 }
