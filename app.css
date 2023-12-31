@@ -205,19 +205,19 @@ a:hover {
   .contact-info {
     /* margin: 10px; */
     border: none;
-    padding-bottom: 100%;
+    padding-bottom: 110%;
   }
   .contact-info h1 {
-    font-size: 60px;
+    font-size: 80px;
     font-weight: lighter;
     text-align: center;
   }
   .contact-info h4 {
-    font-size: 40px;
+    font-size: 60px;
     color: rgb(22, 223, 62);
   }
   .contact-info p {
-    font-size: 35px;
+    font-size: 50px;
   }
   /* Projects */
   .work {
@@ -242,15 +242,18 @@ a:hover {
   .resume img {
     width: 100%;
   }
-  /* Documents  */
+  .skills .img-fluid{
+    width: 100%;
+  }
+
   .documents {
     padding-bottom: 20%;
   }
   /* Navbar */
-  .navbar-custom{
-    /* height: 100px; */
-  }
   .navbar-toggler {
-    font-size: 30px;
+    font-size: 50px;
+  }
+  .nav-link{
+    font-size: 50px;
   }
 }
