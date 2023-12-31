@@ -219,6 +219,9 @@ a:hover {
   .contact-info p {
     font-size: 50px;
   }
+  .contact-info a {
+    font-size: 50px;
+  }
   /* Projects */
   .work {
     display: block;
@@ -236,16 +239,13 @@ a:hover {
     display: none;
   }
   .work h4 {
-    font-size: 15px;
+    font-size: 30px;
   }
   /* Documents */
   .resume img {
+    display: block;
     width: 100%;
   }
-  .skills .img-fluid{
-    width: 100%;
-  }
-
   .documents {
     padding-bottom: 20%;
   }
@@ -255,5 +255,11 @@ a:hover {
   }
   .nav-link{
     font-size: 50px;
+  }
+  .about-info h1{
+    font-size: 80px ;
+  }
+  .about-info p{
+    font-size: 50px ;
   }
 }
