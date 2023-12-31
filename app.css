@@ -184,8 +184,8 @@ a:hover {
   /* HomePage */
 
   .homepage {
-  height: 100vh;
-}
+    height: 100vh;
+  }
   .homepage h1 {
     font-size: 200px;
     text-align: right;
@@ -246,6 +246,9 @@ a:hover {
     display: block;
     width: 100%;
   }
+  .skills .img-fluid{
+    display: block;
+  }
   .documents {
     padding-bottom: 20%;
   }
@@ -253,13 +256,10 @@ a:hover {
   .navbar-toggler {
     font-size: 50px;
   }
-  .nav-link{
+  .nav-link {
     font-size: 50px;
   }
-  .about-info h1{
-    font-size: 80px ;
-  }
-  .about-info p{
-    font-size: 50px ;
+  .about-info h1 {
+    font-size: 80px;
   }
 }
