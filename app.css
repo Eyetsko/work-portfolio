@@ -205,7 +205,7 @@ a:hover {
   .contact-info {
     /* margin: 10px; */
     border: none;
-    padding-bottom: 110%;
+    padding-bottom: 100%;
   }
   .contact-info h1 {
     font-size: 80px;
