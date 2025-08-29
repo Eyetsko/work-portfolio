@@ -112,10 +112,11 @@ p {
 .nav-link {
   color:white;
 }
-.a .nav-link .active {
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
   color: white;
   font-weight: bold;
 }
+
 h2 {
   padding: 30px;
 }
