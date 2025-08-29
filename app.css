@@ -112,7 +112,7 @@ p {
 .nav-link {
   color:white;
 }
-.nav-link-active {
+.nav-link active {
   color: white;
   font-weight: bold;
 }
