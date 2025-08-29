@@ -27,7 +27,7 @@ h5 {
 }
 
 footer a {
-  color: black;
+  color: white;
   margin: 5px;
   font-size: 20px;
 }
@@ -44,12 +44,12 @@ h1 {
   text-align: center;
 }
 h3 {
-  border: 2px solid rgb(22, 223, 62);
+  border: 1px solid white;
   margin: 120px 20px 80px 80px;
   max-width: 100%;
 }
 img {
-  border: 2px solid rgb(22, 223, 62);
+  border:1px solid white;
   padding: 30px;
 }
 .work {
@@ -74,7 +74,7 @@ img {
 
 .contact-info {
   /* margin: 100px; */
-  border: 2px solid rgb(22, 223, 62);
+  border: 1px solid white;
   padding-bottom: 10%;
 }
 .contact-info a {
@@ -103,7 +103,7 @@ p {
   padding: 10px;
 }
 .button a:hover {
-  border: 2px solid rgb(22, 223, 62);
+  border: white;
 }
 .navbar-custom {
   background-color: black;
@@ -150,7 +150,7 @@ a:hover {
 }
 
 .skills h4 {
-  border: 1px solid rgb(22, 223, 62);
+  border: 1px solid white;
   font-weight: lighter;
 }
 .resume img {
