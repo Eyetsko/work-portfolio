@@ -109,6 +109,9 @@ p {
   background-color: black;
   color:white;
 }
+.nav-link {
+  color:white;
+}
 h2 {
   padding: 30px;
 }
