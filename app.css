@@ -107,6 +107,7 @@ p {
 }
 .navbar-custom {
   background-color: black;
+  color:white;
 }
 h2 {
   padding: 30px;
@@ -256,9 +257,11 @@ a:hover {
   /* Navbar */
   .navbar-toggler {
     font-size: 50px;
+    color: white;
   }
   .nav-link {
     font-size: 50px;
+    color: white;
   }
   .about-info h1 {
     font-size: 80px;
