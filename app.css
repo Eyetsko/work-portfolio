@@ -116,7 +116,7 @@ p {
   color:white;
 }
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-  color: white;
+  color: rgb(22, 223, 62);
   font-weight: bold;
 }
 
